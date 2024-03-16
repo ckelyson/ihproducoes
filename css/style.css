@@ -40,13 +40,14 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 .header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 95%;
+    width: 100%;
     padding: 2rem 7%;
     background: transparent;
     display: flex;
