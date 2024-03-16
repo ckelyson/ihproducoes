@@ -46,8 +46,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 1rem 1%;
+    width: 95%;
+    padding: 2rem 7%;
     background: transparent;
     display: flex;
     align-items: center;
