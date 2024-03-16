@@ -173,7 +173,7 @@ section {
     color: var(--white-color);
 }
 
-.btn {
+.btn1 {
     display: inline-block;
     padding: 1.2rem 2.8rem;
     background: var(--main-color);
@@ -188,7 +188,7 @@ section {
     margin-bottom: 50px;
 }
 
-.btn:hover {
+.btn1:hover {
     background: transparent;
     color: var(--main-color);
     border-color: var(--main-color);
@@ -586,7 +586,7 @@ span {
     resize: none;
 }
 
-.contact form .btn {
+.contact form .btn1 {
     margin-top: 2rem;
     cursor: pointer;
 }
