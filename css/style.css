@@ -644,7 +644,7 @@ span {
     }
 
     .home .profession-container .overlay {
-        right: -6%;
+        display: none;
     }
 
     .home-img img {
