@@ -153,6 +153,8 @@ section {
     font-size: 1.6rem;
 }
 
+
+
 .home-content .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -594,7 +596,7 @@ span {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 7%;
