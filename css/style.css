@@ -713,7 +713,7 @@ span {
     }
 }
 
-@media (max-width: 896px) {
+@media (max-width: 1024px) {
     .navbar a:nth-child(2) {
         color: var(--main-color);
     }
@@ -727,19 +727,19 @@ span {
     }
 }
 
-@media (max-width: 879px) {
+@media (max-width: 1024px) {
     .portfolio .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1024px) {
     .navbar a:nth-child(2) {
         color: var(--white-color);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #menu-icon {
         display: block;
     }
@@ -747,7 +747,7 @@ span {
     #darkMode-icon {
         position: absolute;
         right: 7rem;
-        font-size: 2.6rem;
+        font-size: 3.6rem;
         color: var(--text-color);
         margin-bottom: .1rem;
     }
@@ -757,7 +757,7 @@ span {
         top: 100%;
         left: 0;
         width: 100%;
-        padding: 1rem 3%;
+        padding: 2rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -889,13 +889,13 @@ span {
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 1024px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1024px) {
     html {
         font-size: 50%;
     }
@@ -938,13 +938,13 @@ span {
     }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 1024px) {
     .about-img img {
         width: 90vw;
     }
 }
 
-@media (max-width: 315px) {
+@media (max-width: 1024px) {
     .home-content h1 {
         font-size: 4.5rem;
     }
