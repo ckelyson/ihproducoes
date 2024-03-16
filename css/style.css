@@ -859,7 +859,7 @@ span {
     .about {
         flex-direction: column-reverse;
         text-align: center;
-        margin-top: -260px;
+        margin-top: -150px;
     }
 
     .about-content h2 {
