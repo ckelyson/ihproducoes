@@ -630,6 +630,17 @@ span {
 }
 
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .container img {
+    width: 25%; /* Defina a largura das imagens aqui */
+    height: auto;
+  }
+
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
     html {
@@ -859,7 +870,7 @@ span {
     .about {
         flex-direction: column-reverse;
         text-align: center;
-        margin-top: -150px;
+        margin-top: -50px;
     }
 
     .about-content h2 {
@@ -898,3 +909,9 @@ span {
 img {
     border-radius: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .container .imagem {
+      width: calc(25% - 5px); /* Para quatro imagens por linha */
+    }
+  }
